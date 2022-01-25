@@ -1,0 +1,148 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\Maymuna Islam Mim\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'i',
+0 verbose cli   'dotenv'
+0 verbose cli ]
+1 info using npm@8.3.0
+2 info using node@v14.17.6
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Users\Maymuna Islam Mim\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\projects\tourist-places-server-side\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\Maymuna Islam Mim\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\Maymuna Islam Mim\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 19ms
+19 timing npm:load:configload Completed in 19ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 5ms
+22 timing npm:load:display Completed in 7ms
+23 verbose logfile C:\projects\tourist-places-server-side\_logs\2022-01-25T12_38_29_163Z-debug-0.log
+24 timing npm:load:logFile Completed in 11ms
+25 timing npm:load:timers Completed in 1ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 40ms
+28 timing arborist:ctor Completed in 1ms
+29 timing idealTree:init Completed in 226ms
+30 timing idealTree:userRequests Completed in 3ms
+31 silly idealTree buildDeps
+32 silly fetch manifest dotenv@*
+33 timing arborist:ctor Completed in 0ms
+34 http fetch GET 200 https://registry.npmjs.org/dotenv 826ms (cache miss)
+35 silly placeDep ROOT dotenv@14.3.0 OK for: tourist-places-server-side@1.0.0 want: *
+36 timing idealTree:#root Completed in 840ms
+37 timing idealTree:node_modules/dotenv Completed in 0ms
+38 timing idealTree:buildDeps Completed in 842ms
+39 timing idealTree:fixDepFlags Completed in 2ms
+40 timing idealTree Completed in 1078ms
+41 timing reify:loadTrees Completed in 1079ms
+42 timing reify:diffTrees Completed in 5ms
+43 silly reify moves {}
+44 timing reify:retireShallow Completed in 1ms
+45 timing reify:createSparse Completed in 36ms
+46 timing reify:loadBundles Completed in 0ms
+47 silly audit bulk request {
+47 silly audit   '@types/node': [ '17.0.12' ],
+47 silly audit   '@types/webidl-conversions': [ '6.1.1' ],
+47 silly audit   '@types/whatwg-url': [ '8.2.1' ],
+47 silly audit   accepts: [ '1.3.7' ],
+47 silly audit   'array-flatten': [ '1.1.1' ],
+47 silly audit   'base64-js': [ '1.5.1' ],
+47 silly audit   'body-parser': [ '1.19.1' ],
+47 silly audit   bson: [ '4.6.1' ],
+47 silly audit   buffer: [ '5.7.1' ],
+47 silly audit   bytes: [ '3.1.1' ],
+47 silly audit   'content-disposition': [ '0.5.4' ],
+47 silly audit   'content-type': [ '1.0.4' ],
+47 silly audit   cookie: [ '0.4.1' ],
+47 silly audit   'cookie-signature': [ '1.0.6' ],
+47 silly audit   cors: [ '2.8.5' ],
+47 silly audit   debug: [ '2.6.9' ],
+47 silly audit   denque: [ '2.0.1' ],
+47 silly audit   depd: [ '1.1.2' ],
+47 silly audit   destroy: [ '1.0.4' ],
+47 silly audit   'ee-first': [ '1.1.1' ],
+47 silly audit   encodeurl: [ '1.0.2' ],
+47 silly audit   'escape-html': [ '1.0.3' ],
+47 silly audit   etag: [ '1.8.1' ],
+47 silly audit   express: [ '4.17.2' ],
+47 silly audit   finalhandler: [ '1.1.2' ],
+47 silly audit   forwarded: [ '0.2.0' ],
+47 silly audit   fresh: [ '0.5.2' ],
+47 silly audit   'http-errors': [ '1.8.1' ],
+47 silly audit   'iconv-lite': [ '0.4.24' ],
+47 silly audit   ieee754: [ '1.2.1' ],
+47 silly audit   inherits: [ '2.0.4' ],
+47 silly audit   ip: [ '1.1.5' ],
+47 silly audit   'ipaddr.js': [ '1.9.1' ],
+47 silly audit   'media-typer': [ '0.3.0' ],
+47 silly audit   'memory-pager': [ '1.5.0' ],
+47 silly audit   'merge-descriptors': [ '1.0.1' ],
+47 silly audit   methods: [ '1.1.2' ],
+47 silly audit   mime: [ '1.6.0' ],
+47 silly audit   'mime-db': [ '1.51.0' ],
+47 silly audit   'mime-types': [ '2.1.34' ],
+47 silly audit   mongodb: [ '4.3.1' ],
+47 silly audit   'mongodb-connection-string-url': [ '2.4.1' ],
+47 silly audit   ms: [ '2.0.0', '2.1.3' ],
+47 silly audit   negotiator: [ '0.6.2' ],
+47 silly audit   'object-assign': [ '4.1.1' ],
+47 silly audit   'on-finished': [ '2.3.0' ],
+47 silly audit   parseurl: [ '1.3.3' ],
+47 silly audit   'path-to-regexp': [ '0.1.7' ],
+47 silly audit   'proxy-addr': [ '2.0.7' ],
+47 silly audit   punycode: [ '2.1.1' ],
+47 silly audit   qs: [ '6.9.6' ],
+47 silly audit   'range-parser': [ '1.2.1' ],
+47 silly audit   'raw-body': [ '2.4.2' ],
+47 silly audit   'safe-buffer': [ '5.2.1' ],
+47 silly audit   'safer-buffer': [ '2.1.2' ],
+47 silly audit   saslprep: [ '1.0.3' ],
+47 silly audit   send: [ '0.17.2' ],
+47 silly audit   'serve-static': [ '1.14.2' ],
+47 silly audit   setprototypeof: [ '1.2.0' ],
+47 silly audit   'smart-buffer': [ '4.2.0' ],
+47 silly audit   socks: [ '2.6.1' ],
+47 silly audit   'sparse-bitfield': [ '3.0.3' ],
+47 silly audit   statuses: [ '1.5.0' ],
+47 silly audit   toidentifier: [ '1.0.1' ],
+47 silly audit   tr46: [ '3.0.0' ],
+47 silly audit   'type-is': [ '1.6.18' ],
+47 silly audit   unpipe: [ '1.0.0' ],
+47 silly audit   'utils-merge': [ '1.0.1' ],
+47 silly audit   vary: [ '1.1.2' ],
+47 silly audit   'webidl-conversions': [ '7.0.0' ],
+47 silly audit   'whatwg-url': [ '11.0.0' ],
+47 silly audit   dotenv: [ '14.3.0' ]
+47 silly audit }
+48 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-14.3.0.tgz. Extracting by manifest.
+49 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-14.3.0.tgz 423ms (cache miss)
+50 timing reifyNode:node_modules/dotenv Completed in 457ms
+51 timing reify:unpack Completed in 457ms
+52 timing reify:unretire Completed in 0ms
+53 timing build:queue Completed in 29ms
+54 timing build:deps Completed in 30ms
+55 timing build Completed in 30ms
+56 timing reify:build Completed in 30ms
+57 timing reify:trash Completed in 0ms
+58 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 835ms
+59 timing auditReport:getReport Completed in 840ms
+60 silly audit report {}
+61 timing auditReport:init Completed in 0ms
+62 timing reify:audit Completed in 841ms
+63 timing reify:save Completed in 123ms
+64 timing reify Completed in 2017ms
+65 silly ADD node_modules/dotenv
+66 timing command:i Completed in 2033ms
+67 verbose exit 0
+68 timing npm Completed in 5409ms
+69 info ok

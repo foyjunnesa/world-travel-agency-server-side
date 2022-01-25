@@ -1,0 +1,34 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\Maymuna Islam Mim\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'run',
+0 verbose cli   'start-dev'
+0 verbose cli ]
+1 info using npm@8.3.0
+2 info using node@v14.17.6
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\Maymuna Islam Mim\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 17ms
+6 timing config:load:builtin Completed in 17ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\projects\tourist-places-server-side\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 21ms
+11 timing config:load:file:C:\Users\Maymuna Islam Mim\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\Maymuna Islam Mim\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 56ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 104ms
+19 timing npm:load:configload Completed in 105ms
+20 timing npm:load:setTitle Completed in 1ms
+21 timing config:load:flatten Completed in 19ms
+22 timing npm:load:display Completed in 21ms
+23 verbose logfile C:\projects\tourist-places-server-side\_logs\2022-01-25T22_13_38_762Z-debug-0.log
+24 timing npm:load:logFile Completed in 11ms
+25 timing npm:load:timers Completed in 1ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 140ms
+28 silly logfile start cleaning logs, removing 1 files
