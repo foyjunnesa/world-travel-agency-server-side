@@ -22,7 +22,7 @@ async function run() {
         const database = client.db('worldTour');
         const servicesCollection = database.collection('services');
 
-        // GET API
+        // GET API:
         app.get('/services', async (req, res) => {
             const cursor = servicesCollection.find({});
             console.log(cursor)
@@ -30,7 +30,7 @@ async function run() {
             res.send(services);
         });
 
-        // GET SINGLE Service
+        // GET SINGLE Service:
         app.get('/singleServices/:id', async (req, res) => {
             const id = req.params.id;
             console.log('getting single id')
@@ -40,7 +40,7 @@ async function run() {
             res.json(service);
         })
 
-        // POST API
+        // POST API:
         app.post('/addServices', async (req, res) => {
             const service = req.body;
             console.log('hit the post api', service);
