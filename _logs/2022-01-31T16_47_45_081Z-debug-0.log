@@ -1,0 +1,59 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\Maymuna Islam Mim\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'ls',
+0 verbose cli   '--depth',
+0 verbose cli   '0',
+0 verbose cli   '--json'
+0 verbose cli ]
+1 info using npm@8.3.0
+2 info using node@v14.17.6
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 4ms
+5 timing config:load:file:C:\Users\Maymuna Islam Mim\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 5ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:c:\projects\world-travel-agency-server-side\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:C:\Users\Maymuna Islam Mim\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\Maymuna Islam Mim\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 5ms
+18 timing config:load Completed in 25ms
+19 timing npm:load:configload Completed in 25ms
+20 timing npm:load:setTitle Completed in 2ms
+21 timing config:load:flatten Completed in 7ms
+22 timing npm:load:display Completed in 9ms
+23 verbose logfile c:\projects\world-travel-agency-server-side\_logs\2022-01-31T16_47_45_081Z-debug-0.log
+24 timing npm:load:logFile Completed in 18ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 57ms
+28 timing arborist:ctor Completed in 2ms
+29 silly logfile start cleaning logs, removing 1 files
+30 timing command:ls Completed in 49ms
+31 verbose stack Error: missing: cors@^2.8.5, required by lipstick-collection-server-site@1.0.0
+31 verbose stack missing: dotenv@^14.3.0, required by lipstick-collection-server-site@1.0.0
+31 verbose stack missing: express@^4.17.2, required by lipstick-collection-server-site@1.0.0
+31 verbose stack missing: mongodb@^4.3.1, required by lipstick-collection-server-site@1.0.0
+31 verbose stack     at LS.exec (C:\Users\Maymuna Islam Mim\AppData\Roaming\npm\node_modules\npm\lib\commands\ls.js:209:9)
+31 verbose stack     at async module.exports (C:\Users\Maymuna Islam Mim\AppData\Roaming\npm\node_modules\npm\lib\cli.js:66:5)
+32 verbose cwd c:\projects\world-travel-agency-server-side
+33 verbose Windows_NT 6.3.9600
+34 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Maymuna Islam Mim\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "ls" "--depth" "0" "--json"
+35 verbose node v14.17.6
+36 verbose npm  v8.3.0
+37 error code ELSPROBLEMS
+38 error missing: cors@^2.8.5, required by lipstick-collection-server-site@1.0.0
+38 error missing: dotenv@^14.3.0, required by lipstick-collection-server-site@1.0.0
+38 error missing: express@^4.17.2, required by lipstick-collection-server-site@1.0.0
+38 error missing: mongodb@^4.3.1, required by lipstick-collection-server-site@1.0.0
+39 verbose exit 1
+40 timing npm Completed in 943ms
+41 verbose code 1
+42 error A complete log of this run can be found in:
+42 error     c:\projects\world-travel-agency-server-side\_logs\2022-01-31T16_47_45_081Z-debug-0.log
